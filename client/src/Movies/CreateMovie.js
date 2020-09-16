@@ -39,6 +39,7 @@ const CreateMovie = (props) => {
 
     return (
         <>
+        <div className="creatediv">
         <h2>Update Movie</h2>
         <form onSubmit = {handleSubmit}>
          <label>Title:&nbsp;</label>
@@ -71,6 +72,7 @@ const CreateMovie = (props) => {
          />
          <button>Update</button>
         </form>
+        </div>
         </>
     );
 };

@@ -84,3 +84,41 @@ body {
   color:white;
   font-size:20px;
 }
+.creatediv{
+  border:1px solid yellow;
+  background:rgb(212, 206, 127);
+  height:100px;
+  padding:2%;
+  color:orangered;
+  margin-top:20px;
+}
+.creatediv label{
+  margin:0 15px;
+}
+.creatediv button{
+  margin: 0 10px;
+  width:100px;
+  height:30px;
+  border-radius: 30%;
+  background-color: plum;
+  color:white;
+  font-size: 1rem;
+}
+.updatediv{
+  background-color: powderblue;
+  padding:2%;
+  color:rgb(255, 0, 140);
+  margin-top: 20px;
+}
+.updatediv label{
+  margin: 0 15px;
+}
+.updatediv button{
+  margin: 0 10px;
+  width:100px;
+  height:30px;
+  border-radius: 30%;
+  background-color: rgb(226, 169, 84);
+  color:white;
+  font-size: 1rem;
+}

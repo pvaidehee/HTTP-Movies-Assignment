@@ -54,6 +54,7 @@ const UpdateMovie = (props) => {
 
     return (
         <>
+        <div className="updatediv">
         <h2>Update Movie</h2>
         <form onSubmit = {handleSubmit}>
          <label>Title:&nbsp;</label>
@@ -86,6 +87,7 @@ const UpdateMovie = (props) => {
          />
          <button>Update</button>
         </form>
+        </div>
         </>
     );
 }
