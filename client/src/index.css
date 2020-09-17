@@ -3,10 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: #f2f2f2;
+  background-image: url("https://alltimelists.com/wp-content/uploads/2019/09/Background-of-Every-Movie-812x464.jpg");
 }
 
 .movie-card {
-  background-color: #fff;
+  background:rgb(130, 222, 238);
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
@@ -74,4 +75,50 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+.btnadd{
+  height:30px;
+  margin-left:45%;
+  border-radius: 40%;
+  background:salmon;
+  color:white;
+  font-size:20px;
+}
+.creatediv{
+  border:1px solid yellow;
+  background:rgb(212, 206, 127);
+  height:100px;
+  padding:2%;
+  color:orangered;
+  margin-top:20px;
+}
+.creatediv label{
+  margin:0 15px;
+}
+.creatediv button{
+  margin: 0 10px;
+  width:100px;
+  height:30px;
+  border-radius: 30%;
+  background-color: plum;
+  color:white;
+  font-size: 1rem;
+}
+.updatediv{
+  background-color: powderblue;
+  padding:2%;
+  color:rgb(255, 0, 140);
+  margin-top: 20px;
+}
+.updatediv label{
+  margin: 0 15px;
+}
+.updatediv button{
+  margin: 0 10px;
+  width:100px;
+  height:30px;
+  border-radius: 30%;
+  background-color: rgb(226, 169, 84);
+  color:white;
+  font-size: 1rem;
 }
